@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title> Media Cetak </title>
+  <title> Input Data Petugas </title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -592,7 +592,7 @@
               <li class="nav-item">
                 <a href="../examples/blank.html" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Media Cetak</p>
+                  <p>input data pelanggan</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -703,59 +703,7 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1>Media Cetak</h1>
-          </div>
-          <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-            </ol>
-          </div>
-        </div>
-      </div><!-- /.container-fluid -->
-    </section>
-
-    <!-- Main content -->
-    <section class="content">
-
-      <!-- Default box -->
-      <div class="card">
-        <div class="card-header">
-          <h3 class="card-title">Cetak Dokumen</h3>
-
-          <div class="card-tools">
-            <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
-              <i class="fas fa-minus"></i></button>
-            <button type="button" class="btn btn-tool" data-card-widget="remove" data-toggle="tooltip" title="Remove">
-              <i class="fas fa-times"></i></button>
-          </div>
-        </div>
-        <div class="card-body">
-          Nama : Iqlima Nur Fiqhia
-        </div>
-        <div class="card-body">
-          NIM : 1815051020
-        </div>
-        <div class="card-body">
-          Kelas : PTI 4D
-        </div>
-        <!-- /.card-body -->
-        <div class="card-footer">
-          Judul : Aplikasi Cetak Online
-        </div>
-        <div class="card-footer">
-          Penjelasan : Aplikasi ini bermanfaat untuk mencetak file atau dokumen secara online.
-        </div>
-        <!-- /.card-footer-->
-      </div>
-      <!-- /.card -->
-
-    </section>
-    <!-- /.content -->
+  @yield('content')
   </div>
   <!-- /.content-wrapper -->
 
